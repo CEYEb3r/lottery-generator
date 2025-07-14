@@ -38,7 +38,9 @@ Live preview (GitHub Pages)
 
 ## Screenshot
 
-![Desktop view](./assets/screenshot-desktop.png)
+
+![Desktop Screenshot](assets/screenshot-desktop.png)
+
 
 ---
 
@@ -47,7 +49,7 @@ Live preview (GitHub Pages)
 Clone the repository and open `index.html`, or serve the folder with a local web server.
 
 ```bash
-git clone https://github.com/your-username/lottery-generator.git
+git clone https://github.com/CEYEb3r/lottery-generator.git
 cd lottery-generator
 # Option 1: open index.html directly
 # Option 2: serve locally (requires Node.js)
