@@ -1,0 +1,104 @@
+/* ---- Global layout & background ---- */
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("spring-superdraw-1500x1000-2-scaled.jpg") center / cover no-repeat;
+  filter: blur(3px);
+  z-index: -2;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+/* ---- Heading ---- */
+h1 {
+  margin-top: 30px;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to right, #7a85ff, #08e6b6);
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+}
+h1:hover { transform: scale(1.05); }
+
+/* ---- Controls ---- */
+.setup-container { margin-top: 40px; text-align: center; }
+
+select,
+button,
+input[type="number"] {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+#gameMode option:first-child { color: #aaa; }
+
+#customCount,
+#customMax { width: 220px; }
+
+#mybutton {
+  background: rgba(120, 172, 255, 0.82);
+  border: 2px solid rgb(64, 112, 191);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+#mybutton:hover { background: rgba(68, 137, 255, 0.72); }
+
+.custom-inputs { display: none; }
+
+/* ---- Output ---- */
+#numberContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.ball {
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 50%;
+  background: #3498db;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(0);
+  animation: pop-in 0.3s forwards;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.ball.joker { background: crimson; }
+
+@keyframes pop-in { to { transform: scale(1); } }
