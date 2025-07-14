@@ -20,7 +20,7 @@ A responsive web application that generates random lottery numbers for popular g
 ## Demo
 
 Live preview (GitHub Pages)  
-<https://CEYEb3r_.github.io/lottery-generator/>
+<https://CEYEb3r.github.io/lottery-generator/>
 
 ---
 
