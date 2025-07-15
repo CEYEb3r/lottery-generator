@@ -77,13 +77,13 @@ npx serve .
 lottery-generator/
 ├── assets/                  # Images & screenshots
 │   ├── screenshot-desktop.png
-│   └── screenshot-mobile.png
-├── background.jpg           # Page background image
+│   └── screenshot-mobile.jpg
+├── background.jpg           # Background image
 ├── index.html               # Main HTML file
-├── style.css                # CSS styling
 ├── index.js                 # JavaScript logic
+├── style.css                # CSS styles
+├── LICENSE                  # MIT License
 └── README.md                # Project documentation
-```
 
 ---
 
