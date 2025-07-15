@@ -54,3 +54,5 @@ cd lottery-generator
 # Option 1: open index.html directly
 # Option 2: serve locally (requires Node.js)
 npx serve .
+
+"Note: Brave browser may block background image rendering due to strict privacy settings. Use Chrome or Firefox for best experience."
