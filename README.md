@@ -52,7 +52,7 @@ Live preview on GitHub Pages:
 
 **Mobile View**
 
-![Mobile Screenshot](assets/screenshot-mobile.png)
+![Mobile Screenshot](assets/screenshot-mobile.jpg)
 
 ---
 
