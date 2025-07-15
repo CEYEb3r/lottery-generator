@@ -35,7 +35,7 @@ Live preview on GitHub Pages:
 | Responsive UI  | Flexbox layout adapts to desktop, tablet, and mobile                                                          |
 | Animation      | Number balls “pop” into view with scale transform                                                             |
 | Clean Code     | Straightforward HTML, CSS, and ES6 JavaScript                                                                 |
-                                                     |
+                                                     
 
 ---
 
