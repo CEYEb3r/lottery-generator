@@ -42,12 +42,10 @@ Live preview on GitHub Pages:
 ## Screenshots
 
 <p align="center">
-  <img src="assets/screenshot-desktop.png" alt="Desktop Screenshot" width="500"/>
+  <img src="assets/screenshot-desktop.png" alt="Desktop Screenshot" width="48%">
+  <img src="assets/screenshot-mobile.jpg" alt="Mobile Screenshot" width="48%">
 </p>
 
-<p align="center">
-  <img src="assets/screenshot-mobile.jpg" alt="Mobile Screenshot" width="300"/>
-</p>
 
 
 ---
