@@ -28,31 +28,27 @@ Live preview on GitHub Pages:
 
 ## Features
 
-| Category   | Details                               |
-| ---------- | ------------------------------------- |
-| Game Modes | • Joker (5 numbers 1–45 + Joker 1–20) |
-
-```
-             • Lotto (6 numbers 1–49)  
-             • Custom (1–20 numbers, user‑defined max, optional Joker) |
-```
-
-\| Validation     | Prevents blank, negative, or impossible inputs (e.g., too many uniques for a small range)                   |
-\| Responsive UI  | Flexbox layout adapts to desktop, tablet, and mobile                                                        |
-\| Animation      | Number balls “pop” into view with scale transform                                                           |
-\| Clean Code     | Straightforward HTML, CSS, and ES6 JavaScript                                                               |
+| Category       | Details                                                                                                       |
+|----------------|---------------------------------------------------------------------------------------------------------------|
+| Game Modes     | • Joker (5 numbers 1–45 + Joker 1–20) <br> • Lotto (6 numbers 1–49) <br> • Custom (1–20 numbers, user-defined max, optional Joker) |
+| Validation     | Prevents blank, negative, or impossible inputs (e.g., too many uniques for a small range)                    |
+| Responsive UI  | Flexbox layout adapts to desktop, tablet, and mobile                                                          |
+| Animation      | Number balls “pop” into view with scale transform                                                             |
+| Clean Code     | Straightforward HTML, CSS, and ES6 JavaScript                                                                 |
+                                                     |
 
 ---
 
 ## Screenshots
 
-**Desktop View**
+<p align="center">
+  <img src="assets/screenshot-desktop.png" alt="Desktop Screenshot" width="500"/>
+</p>
 
-![Desktop Screenshot](assets/screenshot-desktop.png)
+<p align="center">
+  <img src="assets/screenshot-mobile.jpg" alt="Mobile Screenshot" width="300"/>
+</p>
 
-**Mobile View**
-
-![Mobile Screenshot](assets/screenshot-mobile.jpg)
 
 ---
 
