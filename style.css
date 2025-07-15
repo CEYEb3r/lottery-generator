@@ -13,7 +13,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: url("background.jpg") center / cover no-repeat;
+  background: url("bg.jpg") center / cover no-repeat;
   filter: blur(3px);
   z-index: -2;
 }
