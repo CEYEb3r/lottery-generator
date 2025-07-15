@@ -43,7 +43,7 @@ Live preview on GitHub Pages:
 
 <p align="center">
   <img src="assets/screenshot-desktop.png" alt="Desktop Screenshot" width="47%">
-  <img src="assets/screenshot-mobile.jpg" alt="Mobile Screenshot" width="35%">
+  <img src="assets/screenshot-mobile.jpg" alt="Mobile Screenshot" width="25%">
 </p>
 
 
